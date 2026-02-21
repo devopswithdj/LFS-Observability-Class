@@ -65,3 +65,9 @@ Execute the call like this:
 opentelemetry-instrument python app.py
 
 The output will look exactly like the non-instrumented application, but in the background, the OpenTelemetry instrumentation will be active and sending telemetry data to the configured OTLP endpoint. You should see traces being exported to your OpenTelemetry Collector or backend that you have set up to receive OTLP data.
+
+
+
+# Code based instrumentation
+ 
+ -- make use of opentelemetry-instrumentation-annotations library
